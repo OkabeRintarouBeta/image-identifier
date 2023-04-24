@@ -1,0 +1,57 @@
+.cardWrapper{
+  width: 85%;
+  background-color: white;
+  height: 82%;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadWrapper{
+    grid-column: 1/2;
+    background-color:white;
+    margin:15px;
+    align-self: center;
+}
+
+
+.resultsWrapper{
+    display: grid;
+    grid-template-columns: 1fr 3fr ; 
+    gap: 10px; 
+}
+.preview{
+    grid-column:1/2;
+    margin-left:15px;
+    
+}
+
+.preview h3{
+    margin-top:0px;
+}
+.previewImg{
+    width: 300px;
+    height:330px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.preview img{
+    min-width: 270px;
+    max-width: 300px;
+    min-height: 270px;
+    max-height: 330px;
+}
+
+.predict{
+    grid-column: 2/3;
+    margin-right:15px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.predictWrapper h2{
+    justify-self: flex-start;
+}
