@@ -30,18 +30,21 @@
     margin-top:0px;
 }
 .previewImg{
-    width: 300px;
-    height:330px;
+    width: 22vw;
+    height: 32vw;
+    max-height: 350px;
     border:1px solid black;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 .preview img{
-    min-width: 270px;
+    /* min-width: 270px; */
     max-width: 300px;
-    min-height: 270px;
+    /* min-height: 270px; */
     max-height: 330px;
+    width: 20vw;
+    height: 30vw;
 }
 
 .predict{
@@ -50,7 +53,7 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-    max-width: 100vh;
+    width: 50vw;
 }
 
 .predictWrapper h2{
